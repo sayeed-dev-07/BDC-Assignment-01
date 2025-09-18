@@ -1,0 +1,517 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+}
+
+.hero {
+    width: 100%;
+}
+
+.wrapper-1 {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.3rem 0.5rem;
+}
+
+.hero-main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    padding: 6rem 0;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.left-container {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 1rem;
+    padding: 0 5rem;
+}
+
+.right-container {
+    flex: 1;
+}
+
+.right-container .img {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.right-container .img img {
+    width: 100%;
+}
+
+.left-container h3 {
+    font-size: 2.3rem;
+    font-weight: 500;
+
+}
+
+.left-container p {
+    font-size: 0.9rem;
+    color: #7D7987;
+
+}
+
+.left-container button {
+    padding: 0.7rem 1rem;
+    border-radius: 1.5rem;
+    border: none;
+    background-color: #458FF6;
+    color: #fff;
+    cursor: pointer;
+}
+
+.services-main {
+    width: 100%;
+    height: auto;
+    background-color: #eff7fe;
+}
+
+.services-wrapper {
+    width: 70%;
+    margin: 0 auto;
+    padding: 4rem 0;
+}
+
+.services-wrapper h5 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.services-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    padding-bottom: 2rem;
+}
+
+.line {
+    width: 5rem;
+    background-color: black;
+    height: 0.1rem;
+    text-align: center;
+}
+
+.services-wrapper .p {
+    text-align: center;
+    color: #7D7987;
+    font-size: 1rem;
+    padding: 2rem 6rem;
+}
+
+.services-card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5rem;
+}
+
+.services-card {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 2rem;
+    gap: 1rem;
+    background-color: white;
+    border-radius: 1rem;
+
+}
+
+.services-card .img {
+    width: 20%;
+}
+
+.services-card .img img {
+    width: 100%;
+}
+
+.services-card h4 {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.services-wrapper p {
+    color: #7D7987;
+    font-size: 0.9rem;
+}
+
+.services-wrapper .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4rem;
+}
+
+.services-wrapper .button button {
+    padding: 0.6rem 2rem;
+    border-radius: 8rem;
+    border: none;
+    background-color: #458FF6;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.third-section-main {
+    width: 100%;
+    height: 100vh;
+    margin: 4rem 0;
+}
+
+.third-section-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+}
+
+.third-section-wrapper .upper-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-section {
+    width: 50%;
+}
+
+.right-section {
+    flex: 1;
+    padding: 0 6rem;
+}
+
+.left-section .img {
+    width: 60%;
+    margin: 0 auto;
+
+}
+
+.left-section .img img {
+    width: 100%;
+}
+
+.right-section h3 {
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.right-section .line {
+    margin: 1.5rem 0;
+    height: 0.1rem;
+}
+
+.third-section-wrapper p {
+    color: #7D7987;
+    font-size: 0.9rem;
+    padding: 1rem 0;
+}
+
+.third-section-wrapper button {
+    padding: 0.6rem 2rem;
+    border-radius: 8rem;
+    border: none;
+    background-color: #458FF6;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.lower-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lower-section .left-section .line {
+    margin: 1.5rem 0;
+    padding: 0.07rem;
+    height: 0.1rem;
+}
+
+.lower-section .left-section h3 {
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.lower-section .left-section {
+    width: 40%;
+    padding: 0 3rem;
+}
+
+.lower-section .right-section {
+    flex: 1;
+    margin: 0 auto;
+}
+
+.lower-section .right-section .img {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.lower-section .right-section .img img {
+    width: 100%;
+}
+
+.middle-card-main {
+    width: 100%;
+}
+
+.middle-card-wrapper {
+    color: white;
+    width: 60%;
+    margin: 3rem auto;
+    background-color: #458FF6;
+    padding: 2rem 4rem;
+    border-radius: 1rem;
+}
+
+.middle-card-upper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-card-upper .line {
+    background-color: white;
+    height: 0.1rem;
+    width: 10%;
+    margin: 0.4rem 0;
+}
+
+.middle-card-upper h3 {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.middle-card-lower {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.card-1 {
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: start;
+    gap: 2.3rem;
+}
+
+.card-1 img {
+    width: 100%;
+
+}
+
+.card-1 .img img {
+    width: 100%;
+
+}
+
+.text h5 {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.text .p3 {
+    font-size: 0.7rem;
+    color: #ffffffbc;
+}
+
+.card-2 {
+    padding: 1rem 2rem;
+    flex: 1;
+    color: #ffffffbc;
+}
+
+.card-box .text h4 {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.article-section-main {
+    width: 100%;
+    margin: 5rem 0;
+
+}
+
+.article-wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.article-wrapper .div .p {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin: 4rem 0;
+}
+
+.card-boxes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.text p {
+    color: #7D7987;
+}
+
+.card-box {
+    border-radius: 1rem;
+    background-color: rgb(244, 244, 243);
+    display: flex;
+    flex-direction: column;
+}
+
+.card-box .img {
+    width: 100%;
+}
+
+.card-box .img img {
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.card-box .text {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+}
+
+.card-box .text button {
+    border: none;
+    background-color: transparent;
+    color: #4089ED;
+    padding: 0.4rem 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.card-box button img {
+    width: 0.8rem;
+}
+
+#button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+#button button {
+    padding: 0.6rem 2rem;
+    border-radius: 8rem;
+    border: none;
+    color: #458FF6;
+    background-color: white;
+    font-weight: 500;
+    cursor: pointer;
+    border: 1px solid;
+}
+
+footer {
+    width: 100%;
+
+    background-color: #458FF6;
+    padding: 4rem 0;
+}
+
+
+.footer-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 7rem;
+}
+
+
+.footer-wrapper .column .logo {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 1rem;
+}
+
+.footer-wrapper .column .logo p {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.footer-wrapper .column .logo span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: white;
+    color: #5B9BF3;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+
+}
+
+.column-head p {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.column div p {
+    cursor: pointer;
+}
+
+.column .logo {
+    cursor: pointer;
+}
