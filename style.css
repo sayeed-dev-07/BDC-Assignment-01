@@ -8,8 +8,13 @@
 }
 
 .links a {
+
     text-decoration: none;
     color: black;
+    transition: all 0.2s ease;
+    font-weight: 500;
+    font-size: 1.2rem;
+
 }
 
 .hero {
@@ -43,6 +48,18 @@
     display: flex;
     align-items: center;
     gap: 2rem;
+}
+.links .a-container .line{
+    width: 0%;
+    height: 0.12rem;
+    transition: all 0.2s ease;
+}
+.links .a-container:hover .line{
+    width: 100%;
+    background-color: #458FF6;
+}
+.links .a-container:hover a{
+    color: #458FF6;
 }
 
 .left-container {
@@ -88,7 +105,9 @@
     color: #fff;
     cursor: pointer;
 }
-
+.header .logo img{
+    cursor: pointer;
+}
 .services-main {
     width: 100%;
     height: auto;
@@ -175,16 +194,21 @@
 .services-wrapper .button button {
     padding: 0.6rem 2rem;
     border-radius: 8rem;
-    border: none;
+    border: 1px solid #4089ED;
     background-color: #458FF6;
     color: white;
     font-weight: 500;
     cursor: pointer;
+    transition: all 0.3s ease;
+}
+.services-wrapper .button button:hover{
+    background-color: white;
+    color: #4089ED;
+    border: 1px solid #4089ED;
 }
 
 .third-section-main {
     width: 100%;
-    height: 100vh;
     margin: 4rem 0;
 }
 
@@ -240,11 +264,17 @@
 .third-section-wrapper button {
     padding: 0.6rem 2rem;
     border-radius: 8rem;
-    border: none;
+    border: 1px solid #4089ED;
     background-color: #458FF6;
     color: white;
     font-weight: 500;
     cursor: pointer;
+    transition: all 0.3s ease;
+}
+.third-section-wrapper button:hover{
+    background-color: white;
+    color: #4089ED;
+    border: 1px solid #4089ED;
 }
 
 .lower-section {
@@ -388,7 +418,7 @@
 .card-boxes {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
+    gap: 5rem;
 }
 
 .text p {
@@ -400,6 +430,12 @@
     background-color: rgb(244, 244, 243);
     display: flex;
     flex-direction: column;
+    transition: all 0.2s ease;
+    
+}
+.card-box:hover{
+    transform: translateY(-0.5rem);
+    box-shadow: 3px 3px 3px 2px #b8b7b8;
 }
 
 .card-box .img {
@@ -434,22 +470,28 @@
     width: 0.8rem;
 }
 
-#button {
+#button-container {
+    margin: 3rem 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 2rem 0;
+
 }
 
-#button button {
+#button-container button {
     padding: 0.6rem 2rem;
     border-radius: 8rem;
-    border: none;
+    border: 1px solid #458FF6;
     color: #458FF6;
     background-color: white;
     font-weight: 500;
     cursor: pointer;
     border: 1px solid;
+    transition: all 0.2s ease;
+}
+#button-container button:hover{
+    color: white;
+    background-color: #458FF6;
 }
 
 footer {
@@ -514,4 +556,37 @@ footer {
 
 .column .logo {
     cursor: pointer;
+}
+.hero-main .left-container button{
+    border: 1px solid #fff;
+    transition: all 0.3s ease;
+}
+.hero-main .left-container button:hover{
+    background-color: white;
+    color: #4089ED;
+    border: 1px solid #4089ED;
+}
+.services-card{
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.services-card:hover{
+    transform: translateY(-0.5rem);
+    box-shadow: 2px 2px 2px 2px #b8b7b8;
+}
+
+
+.div-button-box{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.div-button-box .line{
+    margin-left: 0.8rem;
+    width: 0%;
+    background-color: #4089ED;
+    transition: all 0.2s ease;
+}
+.div-button-box:hover .line{
+    width: 85%;
 }
