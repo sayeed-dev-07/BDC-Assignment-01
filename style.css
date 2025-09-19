@@ -435,7 +435,7 @@
 }
 .card-box:hover{
     transform: translateY(-0.5rem);
-    box-shadow: 3px 3px 3px 2px #b8b7b8;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.228);
 }
 
 .card-box .img {
@@ -572,7 +572,7 @@ footer {
 }
 .services-card:hover{
     transform: translateY(-0.5rem);
-    box-shadow: 2px 2px 2px 2px #b8b7b8;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.303);
 }
 
 
